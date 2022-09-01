@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Qwitcher+Grypen:wght@400;700&family=Roboto:ital,wght@0,100;0,300;0,400;1,100&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;1,100&display=swap');
 *{
     margin: 0;
@@ -20,6 +21,7 @@ body{
     justify-content: space-around;
 }
 .logo span{
+    font-family: Qwitcher Grypen;
     font-size: 34px;
     letter-spacing: 3.5;
     color: brown;
