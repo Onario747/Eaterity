@@ -1,0 +1,338 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: calibri;
+}
+
+.navbar{
+    width: 100%;
+    background-color: #fff;
+    height: 60px;
+    border-bottom: 4px solid rgb(81, 76, 76);
+    display: flex;
+    align-items: center;
+    padding: 0 4%;
+    justify-content: space-around;
+}
+.logo span{
+    font-size: 34px;
+    letter-spacing: 3.5;
+    color: brown;
+}
+.navlinks{
+    position: relative;
+    display: flex;
+    column-gap: 24px;
+    align-items: center;
+}
+.navlinks a{
+    text-decoration: none;
+    color: rgb(51, 48, 48);
+}
+.navlinks a:hover{
+    color: rgb(175, 42, 42);
+    transition: 0.2s;
+}
+.active{
+    background-color: brown;
+    color: #fff;
+    padding-right: 5px;
+}
+.navlinks .active{
+    color: #fff;
+    padding: 5px 10px;
+}
+.active:hover{
+    background-color: #fff;
+    color: brown;
+    border: 2px solid brown;
+    transition: 0.2s all;
+}
+
+.herotxt{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 5%;
+    background: linear-gradient(to top, rgba(0, 0, 0,0.5)50%, rgba(0, 0, 0,0.5)50%), url('./pexels-lukas-616401.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 5%;
+}
+.herotxt h1{
+    margin-bottom: 5px;
+    letter-spacing: 2.3;
+}
+.herotxt p{
+    margin-bottom: 16px;
+}
+.herotxt a{
+    display: inline-block;
+    background-color: brown;
+    text-decoration: none;
+    padding: 8px 15px;
+    color: #fff;
+}
+.herotxt a:hover{
+    background-color: #fff;
+    color: brown;
+    border: 2px solid brown;
+    transition: 0.26s;
+}
+.subhero{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 2em;
+    background-color: antiquewhite;
+}
+.card{
+    text-align: center;
+    width: 270px;
+    border: 2px solid #fff;
+    margin: 10px;
+    justify-content: center;
+}
+.card p{
+    text-align: center;
+    font-family: sans-serif;
+    padding: 6px 0;
+    font-size: 15px;
+}
+.card h2{
+    text-align: center;
+}
+
+.card a{
+    display: inline-block;
+    text-align: center;
+    background-color: brown;
+    padding: 5px 1em;
+    text-decoration: none;
+    color: #fff;
+}
+.card a:hover{
+    background-color: #fff;
+    color: brown;
+    transition: 0.3s;
+    border: 2px solid brown;
+}
+
+.bsttext{
+    text-align: center;
+    font-size: 5em;
+}
+.bestchoice{
+    display: flex;
+    justify-content: center;
+    margin-top: 3em;
+    color: #000;
+    width: 100%;
+    flex-wrap: wrap;
+    margin-bottom: 3em;
+    flex-wrap: wrap;
+}
+.line{
+    margin: 10px auto;
+    width: 30em;
+    height: 3px;
+    background: blanchedalmond;
+}
+.cardbox{
+    border-radius: 8px;
+    width: 270px;
+    margin: 10px;
+    border: 2px solid rgb(209, 198, 198);
+    padding: 5px 10px;
+}
+.cardbox a{
+    background: brown;
+    color: #fff;
+    display: inline-block;
+    padding: 5px 15px;
+    text-decoration: none;
+    margin: 5px;
+}
+.cardbox a:hover{
+    background-color: #fff;
+    border: 2px solid brown;
+    color: brown;
+}
+.cardbox:hover{
+    transform: translateX(-15px);
+    transform: translateY(-15px);
+    transition: 0.3s;
+}
+.cardimage{
+    background-color: aquamarine;
+    height: 290px;
+    margin-bottom: 15px;
+    background-size: cover;
+    width: 100%;
+    border-radius: 8px;
+}
+.card_1{
+    background-image: url('./pexels-julie-aagaard-2097090.jpg');
+    background-position: center;
+}
+.card_2{
+    background-image: url('./pexels-rajesh-tp-1633578.jpg');
+}
+.card_3{
+    background-image: url('./pexels-valeria-boltneva-1639562.jpg');
+    background-position: right;
+}
+.card_4{
+    background-image: url('./pexels-lisa-fotios-1279330.jpg');
+    background-position: center;
+}
+.menubtn{
+    display: none;
+}
+.ordersec{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 3em;
+}
+.ordersec h1{
+    font-size: 50px;
+}
+#orderinput{
+    height: 30px;
+    width: 80%;
+    max-width: 400px;
+    border: 2px solid rgb(202, 83, 83);
+    padding-left: 10px;
+}
+.ordersec label{
+    font-size: 20px;
+}
+#orderinput::placeholder{
+    font-size: 15px;
+}
+.ordersec a{
+    display: inline-block;
+    background-color: brown;
+    color: #fff;
+    margin-top: 10px;
+    padding: 10px 15px;
+    text-decoration: none;
+}
+.ordersec a:hover{
+    background: #fff;
+    border: 2px solid brown;
+    color: brown;
+    transition: 0.3s;
+}
+.postmail{
+    display: flex;
+    justify-content: center;
+    
+}
+.postcard{
+    text-align: center;
+    width: 270px;
+    border: 2px solid #fff;
+    margin: 10px;
+    border: 2px solid brown;
+    justify-content: center;
+}
+.postemail{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+#postinput{
+    height: 15%;
+    margin: 8px;
+    padding-left: 5px;
+}
+.postcard a{
+    text-align: center;
+    display: inline-block;
+    background-color: brown;
+    padding: 5px 0;
+    color: #fff;
+    margin: 18px 20px;
+    text-decoration: none;
+}
+.postcard a:hover{
+    background: #fff;
+    border: 2px solid brown;
+    color: brown;
+    transition: 0.3
+}
+.port{
+    padding:5px 8px;
+}
+.port a{
+    padding: 5px 20px;
+}
+footer{
+    height: 25pxpx;
+    background-color: rgb(234, 132, 132);
+    text-align: center;
+    padding: 20px;
+}
+@media screen and (max-width:950px){
+    
+    
+}
+@media screen and (max-width:768px) {
+    .navlinks{
+        position: absolute;
+        width: 100%;
+        background-color: #000;
+        z-index: 999;
+        top: 59px;
+        left: -100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        transition: 0.3s;
+    }
+    .navlinks a{
+        color: #fff;
+        margin: 30px;
+    }
+    .activebtn{
+        left: 0;
+    }
+    .menubtn{
+        display: block;
+        cursor: pointer;
+    }
+    
+}
+@media screen and (max-width:515px) {
+    .line{
+        width: 15em;
+    }
+  
+    .bsttext{
+        font-size: 1em;
+    }
+    .herotxt h1{
+        font-size: 30px;
+    }
+}
+@media screen and (max-width:280px) {
+    .postmail{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+}
