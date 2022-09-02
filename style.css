@@ -331,7 +331,7 @@ footer{
         font-size: 30px;
     }
 }
-@media screen and (max-width:280px) {
+@media screen and (max-width:415px) {
     .postmail{
         flex-direction: column;
         justify-content: center;
