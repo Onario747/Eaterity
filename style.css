@@ -13,7 +13,7 @@ body{
 .navbar{
     width: 100%;
     background-color: #fff;
-    height: 63px;
+    height: 67px;
     border-bottom: 4px solid rgb(81, 76, 76);
     display: flex;
     align-items: center;
@@ -22,7 +22,7 @@ body{
 }
 .logo span{
     font-family: Qwitcher Grypen;
-    font-size: 54px;
+    font-size: 56px;
     letter-spacing: 3.5;
     color: brown;
 }
